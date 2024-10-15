@@ -1,3 +1,4 @@
+# Use the official OpenJDK image as a base
 FROM openjdk:21-slim
 
 # Set the working directory in the container
@@ -8,7 +9,7 @@ RUN apt-get update && \
     apt-get install -y wget unzip && \
     rm -rf /var/lib/apt/lists/*
 
-# Download and install Gradle 8.3
+# Download and install Gradle
 RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
     unzip gradle-8.3-bin.zip && \
     mv gradle-8.3 /opt/gradle && \
@@ -19,9 +20,10 @@ RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
 COPY . ./
 
 # Ensure gradlew is executable
-RUN chmod +x gradlew && ls -l gradlew
+RUN chmod +x gradlew
 
 # Build the application
 RUN ./gradlew build --no-daemon
 
-RUN cp -r build/reports/tests/test /app/test-reports
+# Specify the command to run your Java application
+CMD ["java", "-cp", "build/libs/Techlistic.jar", "TechlisticClassPackage.TechlisticBaseClass"]
