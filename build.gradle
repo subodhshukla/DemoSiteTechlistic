@@ -13,6 +13,6 @@ repositories {
 
 dependencies {
     //testCompile group: 'junit', name: 'junit', version: '4.12'
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25it .0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
 }
