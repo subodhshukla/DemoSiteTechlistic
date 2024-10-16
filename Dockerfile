@@ -18,6 +18,8 @@ RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
 
 # Copy your application code and the gradlew file
 COPY . ./
+COPY build/libs/*.jar /app/app.jar
+COPY build/dependency/* /app/lib/
 
 # Ensure gradlew is executable
 RUN chmod +x gradlew
