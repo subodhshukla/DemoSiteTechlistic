@@ -21,4 +21,9 @@ shadowJar {
     archiveBaseName.set('DemoSiteTechlistic')
     archiveClassifier.set('all')
     archiveVersion.set('')
+    manifest {
+        attributes(
+                'Main-Class': 'TechlisticClassPackage.TechlisticBaseClass' // Ensure this matches your main class
+        )
+    }
 }
