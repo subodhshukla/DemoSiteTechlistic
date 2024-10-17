@@ -3,6 +3,7 @@ package TechlisticClassPackage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
@@ -12,6 +13,7 @@ public class TechlisticBaseClass {
     public void BrowserConfig(String Browser) {
         if (Browser.contains("Chrome")) {
             //***Below statement used instead of "System.setProperty()"
+
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.manage().window().maximize();
