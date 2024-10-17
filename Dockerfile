@@ -29,4 +29,4 @@ RUN ./gradlew build --no-daemon
 RUN ls -R build/
 
 # Specify the command to run your Java application
-CMD ["java", "-jar", "build/libs/DemoSiteTechlistic-all.jar"]
+CMD ["java", "-jar", "build/libs/DemoSiteTechlistic.jar"]
