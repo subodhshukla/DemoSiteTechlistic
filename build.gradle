@@ -19,6 +19,6 @@ dependencies {
 }
 shadowJar {
     archiveBaseName.set('DemoSiteTechlistic')
-    archiveClassifier.set('')
+    archiveClassifier.set('all')
     archiveVersion.set('')
 }
