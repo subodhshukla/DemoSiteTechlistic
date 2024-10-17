@@ -16,3 +16,11 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
 }
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'TechlisticClassPackage.TechlisticBaseClass' // Update with your main class
+        )
+    }
+}
