@@ -35,4 +35,4 @@ RUN if [ -f build/libs/*.jar ]; then cp build/libs/*.jar /app/app.jar; fi
 RUN if [ -d build/dependency ]; then cp -r build/dependency/* /app/lib/; fi
 
 # Specify the command to run your Java application
-CMD ["java", "-cp", "build/libs/Techlistic.jar", "TechlisticClassPackage.TechlisticBaseClass"]
+CMD ["java", "-cp", "build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar", "TechlisticClassPackage.TechlisticBaseClass"]
