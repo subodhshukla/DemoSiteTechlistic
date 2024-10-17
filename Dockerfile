@@ -16,10 +16,8 @@ RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
     ln -s /opt/gradle/bin/gradle /usr/bin/gradle && \
     rm gradle-8.3-bin.zip
 
-# Copy your application code and the gradlew file
+# Copy your application code
 COPY . ./
-COPY build/libs/*.jar /app/app.jar
-#COPY build/dependency/* /app/lib/
 
 # Ensure gradlew is executable
 RUN chmod +x gradlew
@@ -30,9 +28,5 @@ RUN ./gradlew build --no-daemon
 # List the contents of build directory for debugging
 RUN ls -R build/
 
-# Copy the built jar and dependencies if they exist
-RUN if [ -f build/libs/*.jar ]; then cp build/libs/*.jar /app/app.jar; fi
-RUN if [ -d build/dependency ]; then cp -r build/dependency/* /app/lib/; fi
-
 # Specify the command to run your Java application
-CMD ["java", "-cp", "build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar", "TechlisticClassPackage.TechlisticBaseClass"]
+CMD ["java", "-jar", "build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar"]
