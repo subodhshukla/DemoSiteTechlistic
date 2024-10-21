@@ -11,6 +11,7 @@ java {
     targetCompatibility = '21'
 }
 
+
 repositories {
     mavenCentral()
 }
