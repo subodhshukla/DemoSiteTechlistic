@@ -24,6 +24,7 @@ public class TechlisticBaseClass {
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
             driver.get("https://www.techlistic.com/2020/07/automation-testing-demo-websites.html");
+            System.out.println("Application ran successfully, thanks");
         }
         if (Browser.contains("Firefox")) {
             //***Below statement used instead of "System.setProperty()"
