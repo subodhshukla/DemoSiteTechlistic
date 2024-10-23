@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPackage.TechlisticTestng" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T09:22:13" hostname="DESKTOP-42KN1G2" time="30.249">
+  <properties/>
+  <testcase name="enterDetails" classname="TestPackage.TechlisticTestng" time="30.249"/>
+  <system-out><![CDATA[Application ran successfully, thanks
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>

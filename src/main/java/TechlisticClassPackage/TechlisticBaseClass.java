@@ -9,16 +9,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
 
 public class TechlisticBaseClass {
+
+
     WebDriver driver=null;
     public void BrowserConfig(String Browser) {
         if (Browser.contains("Chrome")) {
             //***Below statement used instead of "System.setProperty()"
-            ChromeOptions options = new ChromeOptions();
+            /*ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless"); // Add this if you want headless mode
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver(options);*/
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));

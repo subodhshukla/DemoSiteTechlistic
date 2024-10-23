@@ -2,8 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bsh-2.0b6-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bsh-2.0b6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jcommander-1.72-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jcommander-1.78-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jcommander-1.78.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery-3.5.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/testng-6.14.3-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/testng-6.14.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/testng-7.4.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/testng-7.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TechlisticTestng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +70,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="DemoSiteTechlistic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="DemoSiteTechlistic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -57,13 +90,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2nTLkvJQgreDbIvAbm7UkBVN38z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -72,18 +108,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/../../PracticeProject2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PracticeProject2" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.TechlisticBaseClass">
+  <component name="RunManager" selected="TestNG.TechlisticTestng">
     <configuration name="TechlisticBaseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TechlisticClassPackage.TechlisticBaseClass" />
       <module name="DemoSiteTechlistic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TechlisticClassPackage.*" />
+          <option name="PATTERN" value="TestPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,6 +144,43 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TechlisticTestng" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TechlisticClassPackage.TechlisticTestng&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TechlisticTestng.enterDetails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestPackage.TechlisticTestng.enterDetails&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -139,6 +212,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TechlisticTestng" type="TestNG">
+      <module name="DemoSiteTechlistic.test" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestPackage" />
+      <option name="MAIN_CLASS_NAME" value="TestPackage.TechlisticTestng" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
@@ -149,8 +241,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TechlisticBaseClass" />
+      <item itemvalue="Gradle.DemoSiteTechlistic [clean]" />
+      <item itemvalue="Gradle.TechlisticTestng" />
+      <item itemvalue="Gradle.TechlisticTestng.enterDetails" />
+      <item itemvalue="TestNG.TechlisticTestng" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TechlisticTestng" />
+        <item itemvalue="Gradle.TechlisticTestng.enterDetails" />
         <item itemvalue="Gradle.DemoSiteTechlistic [clean]" />
         <item itemvalue="Application.TechlisticBaseClass" />
       </list>
@@ -169,47 +270,87 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="120" width="750" height="630" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1729099130425">
+    <state x="360" y="16" key="#Custom_Plugin_Repositories" timestamp="1729671649805">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="605" y="120" width="750" height="630" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.816@0.0.1536.816" timestamp="1729099130425" />
-    <state x="527" y="164" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1729101454768">
+    <state x="360" y="16" key="#Custom_Plugin_Repositories/0.0.1536.816@0.0.1536.816" timestamp="1729671649805" />
+    <state x="223" y="64" width="1089" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1729676724467">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="527" y="164" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.816@0.0.1536.816" timestamp="1729101454768" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1729177201507">
+    <state x="223" y="64" width="1089" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1729676724467" />
+    <state x="498" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1729676639164">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1729177201507" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1729177201507">
+    <state x="498" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1729676639164" />
+    <state x="605" y="120" width="750" height="630" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1729672779456">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1729177201507" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1729177201507">
+    <state x="605" y="120" width="750" height="630" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.816@0.0.1536.816" timestamp="1729672779456" />
+    <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1729599121960">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1729177201507" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1729177201507">
+    <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1729599121960" />
+    <state x="527" y="164" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1729674950541">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1729177201507" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1729162201096">
+    <state x="527" y="164" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.816@0.0.1536.816" timestamp="1729674950541" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1729597864690">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1729162201096" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1729152645391">
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1729597864690" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1729678722362">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1729152645391" />
-    <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1729093209826">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1729678722362" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1729678722362">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816@0.0.1536.816" timestamp="1729093209826" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1729678722362" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1729678722362">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1729678722362" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1729678722362">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1729678722362" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1729675480475">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1729675480475">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1729675480475">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1729675480475">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1729675023928">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1729675023928" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1729675490712">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1729675490712" />
+    <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1729674931395">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816@0.0.1536.816" timestamp="1729674931395" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DemoSiteTechlistic$TechlisticBaseClass.ic" NAME="TechlisticBaseClass Coverage Results" MODIFIED="1728992765625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TechlisticClassPackage.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DemoSiteTechlistic$TechlisticTestng.ic" NAME="TechlisticTestng Coverage Results" MODIFIED="1729671484160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

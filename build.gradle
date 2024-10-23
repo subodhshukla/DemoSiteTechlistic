@@ -15,11 +15,15 @@ java {
 repositories {
     mavenCentral()
 }
-
+test {
+    useTestNG()
+}
 dependencies {
-    //testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
+
+
 }
 shadowJar {
     archiveBaseName.set('DemoSiteTechlistic')
