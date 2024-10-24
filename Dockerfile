@@ -4,10 +4,15 @@ FROM openjdk:21-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Install wget and unzip
+# Install wget, unzip, and Chrome
 RUN apt-get update && \
-    apt-get install -y wget unzip && \
-    rm -rf /var/lib/apt/lists/*
+    apt-get install -y wget unzip \
+    # Install Google Chrome
+    && wget https://dl.google.com/chrome/linux/direct/google-chrome-stable_current_amd64.deb \
+    && apt-get install -y ./google-chrome-stable_current_amd64.deb \
+    && rm google-chrome-stable_current_amd64.deb \
+    # Clean up
+    && rm -rf /var/lib/apt/lists/*
 
 # Download and install Gradle
 RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
@@ -29,5 +34,4 @@ RUN ./gradlew build --no-daemon
 RUN ls -R build/
 
 # Specify the command to run your Java application
-#CMD ["java", "-jar", "build/libs/DemoSiteTechlistic-all.jar"]
 CMD ["./gradlew", "test"]
