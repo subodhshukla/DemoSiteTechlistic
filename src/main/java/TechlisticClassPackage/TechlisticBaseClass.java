@@ -16,7 +16,7 @@ public class TechlisticBaseClass {
         if (Browser.contains("Chrome")) {
             //***Below statement used instead of "System.setProperty()"
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless"); // Add this if you want headless mode
+            options.addArguments("--headless"); // Add this if you want headless mode for automation.
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
