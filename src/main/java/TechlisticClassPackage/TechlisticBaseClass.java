@@ -21,7 +21,7 @@ public class TechlisticBaseClass {
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(options);
-            /*WebDriverManager.chromedriver().setup();
+         /*   WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();*/
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
@@ -40,6 +40,7 @@ public class TechlisticBaseClass {
 
          TechlisticBaseClass tbc=new TechlisticBaseClass();
          tbc.BrowserConfig("Chrome");
+	System.out.println("I have created a Branch on Git: StageBranch ");
 
 
     }
