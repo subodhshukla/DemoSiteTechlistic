@@ -20,9 +20,15 @@ public class TechlisticBaseClass {
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
+<<<<<<< HEAD
             driver = new ChromeDriver(options);*/
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+=======
+            driver = new ChromeDriver(options);
+         /*   WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();*/
+>>>>>>> a1e75d58408caedd7356a9f8df43cafd18d5db84
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
@@ -40,6 +46,7 @@ public class TechlisticBaseClass {
 
          TechlisticBaseClass tbc=new TechlisticBaseClass();
          tbc.BrowserConfig("Chrome");
+	System.out.println("I have created a Branch on Git: StageBranch ");
 
 
     }
