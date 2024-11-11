@@ -40,7 +40,7 @@ public class TechlisticBaseClass {
 
          TechlisticBaseClass tbc=new TechlisticBaseClass();
          tbc.BrowserConfig("Chrome");
-	System.out.println("I have created a Branch on Git: StageBranch ")
+	System.out.println("I have created a Branch on Git: StageBranch ");
 
 
     }
