@@ -14,9 +14,9 @@ public class TechlisticBaseClass {
     WebDriver driver=null;
     public void BrowserConfig(String Browser) {
         if (Browser.contains("Chrome")) {
-            //***Below statement used instead of "System.setProperty()"
+           //***Below statement used instead of "System.setProperty()"
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless"); // Add this if you want headless mode
+            options.addArguments("--headless"); // Add this if you want headless mode for automation.
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
@@ -34,6 +34,7 @@ public class TechlisticBaseClass {
             //***Below statement used instead of "System.setProperty()"
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
+	    System.out.println("This is for firefox");	
         }
     }
     public static void main(String args[]){
