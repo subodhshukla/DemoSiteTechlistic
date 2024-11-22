@@ -36,7 +36,7 @@ public class TechlisticBaseClass {
             //***Below statement used instead of "System.setProperty()"
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-	    System.out.println("This is for firefox");	
+	    	
         }
     }
     public static void main(String args[]){
