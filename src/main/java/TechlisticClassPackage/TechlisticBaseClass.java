@@ -21,13 +21,15 @@ public class TechlisticBaseClass {
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(options);
-         /*   WebDriverManager.chromedriver().setup();
+           /* WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();*/
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
-            driver.get("https://www.techlistic.com/2020/07/automation-testing-demo-websites.html");
+            driver.get("https://subodhshukla.github.io/TestSite/TestSite.html");
+           // driver.get("D:\\subodh\\subodh_Spar\\PracticeTestSite\\TestSite.html");
+            //driver.get("https://www.techlistic.com/2020/07/automation-testing-demo-websites.html");
             System.out.println("Application ran successfully, thanks");
         }
         if (Browser.contains("Firefox")) {

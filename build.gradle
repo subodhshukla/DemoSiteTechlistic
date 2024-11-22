@@ -16,7 +16,17 @@ repositories {
     mavenCentral()
 }
 test {
-    useTestNG()
+    useTestNG(){
+        includeGroups "TestPackage.TechlisticTestng" // You can modify to include your specific test class
+    }
+
+}
+sourceSets {
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+    }
 }
 dependencies {
     testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
