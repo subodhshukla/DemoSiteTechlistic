@@ -17,14 +17,14 @@ repositories {
 }
 test {
     useTestNG(){
-        include 'TestPackage.TechlisticTestng' // You can modify to include your specific test class
+        include 'TechlisticTestng' // You can modify to include your specific test class
     }
 
 }
 sourceSets {
     test {
         java {
-            srcDirs = ['src/test/java']
+            srcDirs = ['src/test/java/TestPackage']
         }
     }
 }
