@@ -30,7 +30,7 @@ test {
 sourceSets {
     test {
         java {
-            srcDirs = ['src/test/java/TestPackage']
+            srcDirs = ['src/test/java/TestPackage/']
         }
     }
 }
