@@ -17,7 +17,7 @@ repositories {
 }
 test {
     useTestNG(){
-        include 'TechlisticTestng' // You can modify to include your specific test class
+        include 'TechlisticTestng.class' // You can modify to include your specific test class
     }
 
     // Enable verbose logging to see what Gradle is doing
