@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestPackage/TechlisticTestng.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TestPackage/TechlisticTestng.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TechlisticBaseClass.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,22 +254,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1731756038002" />
-    <state width="1342" height="191" key="GridCell.Tab.0.bottom" timestamp="1732472469815">
+    <state width="1342" height="191" key="GridCell.Tab.0.bottom" timestamp="1732530158659">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1342" height="191" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1732472469815" />
-    <state width="1342" height="191" key="GridCell.Tab.0.center" timestamp="1732472469815">
+    <state width="1342" height="191" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1732530158659" />
+    <state width="1342" height="191" key="GridCell.Tab.0.center" timestamp="1732530158659">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1342" height="191" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1732472469815" />
-    <state width="1342" height="191" key="GridCell.Tab.0.left" timestamp="1732472469815">
+    <state width="1342" height="191" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1732530158659" />
+    <state width="1342" height="191" key="GridCell.Tab.0.left" timestamp="1732530158659">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1342" height="191" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1732472469815" />
-    <state width="1342" height="191" key="GridCell.Tab.0.right" timestamp="1732472469815">
+    <state width="1342" height="191" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1732530158659" />
+    <state width="1342" height="191" key="GridCell.Tab.0.right" timestamp="1732530158659">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1342" height="191" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1732472469815" />
+    <state width="1342" height="191" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1732530158659" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1729675480475">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
