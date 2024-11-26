@@ -36,7 +36,7 @@ sourceSets {
                 srcDirs = ['automation/src/test/java']
             } else {
                 // If running locally, use the default path for the test source directory
-                srcDirs = ['src/test/**']
+                srcDirs = ['src/test/java/']
             }
         }
     }
