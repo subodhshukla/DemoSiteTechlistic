@@ -10,7 +10,12 @@ java {
     sourceCompatibility = '21'
     targetCompatibility = '21'
 }
-
+// Print the source directories for debugging purposes
+task printSourceDirs {
+    doLast {
+        println "Test source dirs: ${sourceSets.test.java.srcDirs}"
+    }
+}
 
 repositories {
     mavenCentral()
