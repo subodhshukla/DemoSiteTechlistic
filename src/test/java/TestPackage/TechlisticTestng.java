@@ -9,6 +9,7 @@ public class TechlisticTestng {
         TechlisticBaseClass tbc=new TechlisticBaseClass();
         tbc.BrowserConfig("Chrome");
         System.out.println("Browser launched");
+        System.out.println("pushed on dev enviornment ");
 
     }
 }
