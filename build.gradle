@@ -22,7 +22,7 @@ repositories {
 }
 test {
     useTestNG(){
-        include "**/TestPackage/TechlisticTestng.java" // You can modify to include your specific test class
+        include "**/TechlisticTestng.java" // You can modify to include your specific test class
     }
 
     // Enable verbose logging to see what Gradle is doing
@@ -38,7 +38,7 @@ sourceSets {
             // Check if we're in the GitHub Actions environment
             if (project.hasProperty('githubAction')) {
                 // If running on GitHub Actions, tests are in the 'automation' folder
-                srcDirs = ['automation/src/test/java']
+                srcDirs = ['automation/src/test/java/TestPackage']
             } /*else {
                 // If running locally, use the default path for the test source directory
                 srcDirs = ['src/test/java/']
