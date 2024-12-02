@@ -39,10 +39,10 @@ sourceSets {
             if (project.hasProperty('githubAction')) {
                 // If running on GitHub Actions, tests are in the 'automation' folder
                 srcDirs = ['automation/src/test/java']
-            } /*else {
+            } else {
                 // If running locally, use the default path for the test source directory
                 srcDirs = ['src/test/java/']
-            }*/
+            }
         }
     }
 }
