@@ -31,6 +31,10 @@ test {
         showStandardStreams = true
         exceptionFormat "full"
     }
+    reports {
+        html.enabled = true  // Enable HTML reports
+        junitXml.enabled = true  // Keep JUnit XML reports for CI integration
+    }
 }
 sourceSets {
     test {
