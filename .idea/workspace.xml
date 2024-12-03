@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestPackage/TechlisticTestng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +88,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TechlisticTestng">
+  <component name="RunManager" selected="Application.TechlisticBaseClass">
     <configuration name="TechlisticBaseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TechlisticClassPackage.TechlisticBaseClass" />
       <module name="DemoSiteTechlistic.main" />
@@ -113,23 +126,6 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TechlisticTestng" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TechlisticClassPackage.TechlisticTestng&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -166,8 +162,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files (x86)/Java/jdk-21.0.4" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="TestPackage" />
-      <option name="MAIN_CLASS_NAME" value="TestPackage.TechlisticTestng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TechlisticTestng" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -195,12 +191,10 @@
     <list>
       <item itemvalue="Application.TechlisticBaseClass" />
       <item itemvalue="Gradle.DemoSiteTechlistic [clean]" />
-      <item itemvalue="Gradle.TechlisticTestng" />
       <item itemvalue="TestNG.TechlisticTestng" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TechlisticTestng" />
         <item itemvalue="Gradle.DemoSiteTechlistic [clean]" />
         <item itemvalue="Application.TechlisticBaseClass" />
       </list>
@@ -231,18 +225,18 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="68" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1732717088081" />
-    <state x="223" y="64" width="1089" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1731069581084">
+    <state x="223" y="64" width="1089" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1733163295259">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="223" y="64" width="1089" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1731069581084" />
+    <state x="223" y="64" width="1089" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1733163295259" />
     <state x="526" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1732440523260">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="526" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1732440523260" />
-    <state x="498" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1729676639164">
+    <state x="498" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1733161655494">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="498" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1729676639164" />
+    <state x="498" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1733161655494" />
     <state x="605" y="120" width="750" height="630" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1729672779456">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -263,46 +257,46 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1731756038002" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1733144074529">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1733215123528">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1733144074529" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1733144074529">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1733215123528" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1733215123528">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1733144074529" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1733144074529">
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1733215123528" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1733215123528">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1733144074529" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1733144074529">
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1733215123528" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1733215123528">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1733144074529" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1729675480475">
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1733215123528" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1733163656950">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1729675480475">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1733163656950" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1733163656950">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1729675480475">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1733163656950" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1733163656950">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1729675480475">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1733163656950" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1733163656950">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1729675480475" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1733163656950" />
     <state x="451" y="108" key="NewModule_or_Project.wizard" timestamp="1731756065715">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="451" y="108" key="NewModule_or_Project.wizard/0.0.1536.816@0.0.1536.816" timestamp="1731756065715" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1731068679132">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1733163193019">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1731068679132" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1733163193019" />
     <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1731330197870">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -311,10 +305,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1536.816@0.0.1536.816" timestamp="1731330219494" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1733125678654">
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1733214979013">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1733125678654" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1733214979013" />
     <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1729674931395">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -324,10 +318,21 @@
     </state>
     <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1731068172675" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TechlisticTestng.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DemoSiteTechlistic$TechlisticBaseClass.ic" NAME="TechlisticBaseClass Coverage Results" MODIFIED="1728992765625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TechlisticClassPackage.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DemoSiteTechlistic$TechlisticTestng.ic" NAME="TechlisticTestng Coverage Results" MODIFIED="1729671484160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DemoSiteTechlistic$TechlisticTestng.ic" NAME="TechlisticTestng Coverage Results" MODIFIED="1733160919545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

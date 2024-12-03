@@ -22,7 +22,7 @@ repositories {
 }
 test {
     useTestNG(){
-        include "**/TechlisticTestng.java" // You can modify to include your specific test class
+        include "TechlisticTestng" // You can modify to include your specific test class
     }
 
     // Enable verbose logging to see what Gradle is doing
@@ -47,7 +47,7 @@ sourceSets {
     }
 }
 dependencies {
-    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.7.0'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
 
