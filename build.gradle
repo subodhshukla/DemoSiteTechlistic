@@ -23,6 +23,10 @@ repositories {
 test {
     useTestNG(){
         include "**/*TechlisticTestng.class" // You can modify to include your specific test class
+        reports {
+            html.enabled = true  // Enable HTML reports
+            junitXml.enabled = true  // Keep JUnit XML reports for CI integration
+        }
     }
 
     // Enable verbose logging to see what Gradle is doing
@@ -31,10 +35,7 @@ test {
         showStandardStreams = true
         exceptionFormat "full"
     }
-    reports {
-        html.enabled = true  // Enable HTML reports
-        junitXml.enabled = true  // Keep JUnit XML reports for CI integration
-    }
+
 }
 sourceSets {
     test {
