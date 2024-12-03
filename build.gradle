@@ -24,7 +24,9 @@ test {
     useTestNG(){
         include "**/*TechlisticTestng.class" // You can modify to include your specific test class
         reports {
-            html.enabled = true  // Enable HTML reports
+            html {
+                destination = file("build/reports/tests/test")  // Specify the destination of the HTML report
+            }
             junitXml.enabled = true  // Keep JUnit XML reports for CI integration
         }
     }
