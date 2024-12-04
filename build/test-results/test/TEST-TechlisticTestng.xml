@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TechlisticTestng" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-04T13:43:38" hostname="DESKTOP-42KN1G2" time="3.686">
+  <properties/>
+  <testcase name="enterDetails[0](Chrome)" classname="TechlisticTestng" time="3.686"/>
+  <system-out><![CDATA[Application ran successfully, thanks
+Browser launched
+pushed on dev enviornment 
+]]></system-out>
+  <system-err><![CDATA[Dec 04, 2024 7:13:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+</testsuite>

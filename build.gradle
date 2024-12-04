@@ -21,14 +21,9 @@ repositories {
     mavenCentral()
 }
 test {
-    useTestNG(){
-        include "**/*TechlisticTestng.class" // You can modify to include your specific test class
-        reports {
-            html {
-                destination = file("build/reports/tests/test")  // Specify the destination of the HTML report
-            }
-
-        }
+    useTestNG() {
+        //include "**/*TechlisticTestng.class" // You can modify to include your specific test class
+       suites "src/test/resources/Testng.xml"
     }
 
     // Enable verbose logging to see what Gradle is doing
