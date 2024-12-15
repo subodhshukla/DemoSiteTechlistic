@@ -11,7 +11,7 @@ public class LoginPage extends TechlisticBaseClass {
         driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("subodh");
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(("subodh"));
         driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-        //driver.switchTo().alert().accept();
+        driver.switchTo().alert().accept();
 
 
 

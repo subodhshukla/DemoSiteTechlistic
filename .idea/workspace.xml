@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/TestListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/LoginPage.class.uniqueId0" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/LoginPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/checksums/checksums.lock" afterDir="false" />
