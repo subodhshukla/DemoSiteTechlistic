@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'com.github.johnrengelman.shadow' version '8.1.0' // Add the Shadow plugin
+
 }
 
 group 'org.example'
@@ -19,6 +20,7 @@ task printSourceDirs {
 
 repositories {
     mavenCentral()
+
 }
 test {
     useTestNG() {
@@ -32,7 +34,7 @@ test {
         showStandardStreams = true
         exceptionFormat "full"
     }
-
+    
 }
 sourceSets {
     test {
@@ -54,7 +56,10 @@ dependencies {
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
 
 
+
+
 }
+
 shadowJar {
     archiveBaseName.set('DemoSiteTechlistic')
     archiveClassifier.set('all')

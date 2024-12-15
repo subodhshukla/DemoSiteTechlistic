@@ -11,8 +11,8 @@ import java.time.Duration;
 public class TechlisticBaseClass {
 
 
-    WebDriver driver=null;
-    public void BrowserConfig(String Browser) {
+          public static WebDriver driver;
+    public void BrowserConfig(String Browser) throws InterruptedException {
         if (Browser.contains("Chrome")) {
            //***Below statement used instead of "System.setProperty()"
      /*       ChromeOptions options = new ChromeOptions();
@@ -31,6 +31,7 @@ public class TechlisticBaseClass {
            // driver.get("D:\\subodh\\subodh_Spar\\PracticeTestSite\\TestSite.html");
             //driver.get("https://www.techlistic.com/2020/07/automation-testing-demo-websites.html");
             System.out.println("Application ran successfully, thanks");
+
         }
         if (Browser.contains("Firefox")) {
             //***Below statement used instead of "System.setProperty()"
@@ -38,8 +39,13 @@ public class TechlisticBaseClass {
             driver = new FirefoxDriver();
 	    	
         }
+
     }
-    public static void main(String args[]){
+    public void closeBrowser(){
+        driver.close();
+        driver.quit();
+    }
+    public static void main(String args[]) throws InterruptedException {
 
          TechlisticBaseClass tbc=new TechlisticBaseClass();
          tbc.BrowserConfig("Chrome");
