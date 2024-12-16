@@ -17,12 +17,12 @@ public class TechlisticTestng extends TechlisticBaseClass{
         Thread.sleep(2000);
 
     }
-    @Test (priority = 2)
+   /* @Test (priority = 2)
     public void loginToTestSite() throws InterruptedException {
        userlogin.login();
     }
-
-    @Test (priority = 3)
+*/
+    @Test (priority = 2)
     public void quitNow(){
        closeBrowser();
     }
