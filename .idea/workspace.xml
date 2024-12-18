@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TechlisticTestng.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TechlisticTestng.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/LoginPage.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TechlisticTestng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TechlisticTestng.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
