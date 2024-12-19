@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-19T09:39:13" hostname="DESKTOP-42KN1G2" time="4.696">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-19T12:02:47" hostname="DESKTOP-42KN1G2" time="3.49">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="4.182"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.316"/>
-  <testcase name="quitNow" classname="TechlisticTestng" time="0.196"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.237"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.082"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.17"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
 pushed on dev enviornment 
 Test validateHomePage started
-CHEMSCOPE LABSOLUTION INDIA LLP
 Assertion Passed: Page title matches.
 Test quitNow started
 ]]></system-out>
-  <system-err><![CDATA[Dec 19, 2024 3:09:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[Dec 19, 2024 5:32:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-Dec 19, 2024 3:09:18 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Dec 19, 2024 5:32:51 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
