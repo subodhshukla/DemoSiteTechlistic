@@ -5,13 +5,10 @@ FROM openjdk:21-slim
 WORKDIR /app
 
 # Install dependencies and Google Chrome
-RUN apt-get update && \
-    apt-get install -y wget gnupg2 && \
-    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+RUN apt-get update && apt-get install -y --no-install-recommends wget gnupg2 || \(echo "APT update failed!" && exit 1) && \
+    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - || \(echo "Adding Google Chrome key failed!" && exit 1) && \
     echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
-    apt-get update && \
-    apt-get install -y google-chrome-stable && \
-    apt-get install -y unzip && \
+    apt-get update && apt-get install -y --no-install-recommends google-chrome-stable unzip || \(echo "Google Chrome installation failed!" && exit 1) && \
     rm -rf /var/lib/apt/lists/*
 
 # Download and install Gradle
@@ -28,10 +25,13 @@ COPY . ./
 RUN chmod +x gradlew
 
 # Build the application
-RUN ./gradlew build --no-daemon
+RUN ./gradlew build --no-daemon || (echo "Gradle build failed!" && exit 1)
 
 # List the contents of build directory for debugging
 RUN ls -R build/
+
+# Clean up unnecessary files
+RUN rm -rf /tmp/* /var/tmp/*
 
 # Specify the command to run your Java application
 CMD ["./gradlew", "test"]
