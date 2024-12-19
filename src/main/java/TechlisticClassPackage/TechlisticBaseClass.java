@@ -25,15 +25,15 @@ public class TechlisticBaseClass {
     public void BrowserConfig(String Browser) throws InterruptedException {
         if (Browser.contains("Chrome")) {
             //********** commented part if you want headless mode for automation. *********
-           ChromeOptions options = new ChromeOptions();
+/*           ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver(options);*/
             //***Below statement used instead of "System.setProperty()"
-/*            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();*/
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));

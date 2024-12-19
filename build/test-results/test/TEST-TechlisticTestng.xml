@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-19T12:02:47" hostname="DESKTOP-42KN1G2" time="3.49">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-19T14:29:51" hostname="DESKTOP-42KN1G2" time="4.048">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.237"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.082"/>
-  <testcase name="quitNow" classname="TechlisticTestng" time="0.17"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.549"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.341"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.157"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
@@ -12,26 +12,7 @@ Test validateHomePage started
 Assertion Passed: Page title matches.
 Test quitNow started
 ]]></system-out>
-  <system-err><![CDATA[Dec 19, 2024 5:32:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[Dec 19, 2024 7:59:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-Dec 19, 2024 5:32:51 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
-
 ]]></system-err>
 </testsuite>

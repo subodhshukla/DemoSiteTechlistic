@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TechlisticTestng.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TechlisticTestng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/HomePage.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/LoginPage.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TechlisticBaseClass.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechlisticClassPackage/TechlisticBaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,38 +283,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1734346610437" />
-    <state width="1493" height="313" key="GridCell.Tab.0.bottom" timestamp="1734609499200">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1734609499200" />
-    <state width="1493" height="313" key="GridCell.Tab.0.center" timestamp="1734609499200">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1734609499200" />
-    <state width="1493" height="313" key="GridCell.Tab.0.left" timestamp="1734609499200">
+    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1734609499200" />
-    <state width="1493" height="313" key="GridCell.Tab.0.right" timestamp="1734609499200">
+    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1734609499200" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1734600971798">
+    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1734600971798" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1734600971798">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1734600971798" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1734600971798">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1734600971798" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1734600971798">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1734600971798" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1734616857465" />
     <state x="451" y="108" key="NewModule_or_Project.wizard" timestamp="1734346614934">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -344,10 +331,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1536.816@0.0.1536.816" timestamp="1731330219494" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1734455483028">
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1734616883917">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1734455483028" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1734616883917" />
     <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1729674931395">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
