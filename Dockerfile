@@ -5,11 +5,21 @@ FROM openjdk:21-slim
 WORKDIR /app
 
 # Install dependencies and Google Chrome
-RUN apt-get update && apt-get install -y --no-install-recommends wget gnupg2 || \(echo "APT update failed!" && exit 1) && \
-    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - || \(echo "Adding Google Chrome key failed!" && exit 1) && \
-    echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
-    apt-get update && apt-get install -y --no-install-recommends google-chrome-stable unzip || \(echo "Google Chrome installation failed!" && exit 1) && \
-    rm -rf /var/lib/apt/lists/*
+# Install dependencies and Google Chrome
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends wget gnupg2 || \
+    (echo "APT update failed!" && exit 1)
+
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - || \
+    (echo "Adding Google Chrome key failed!" && exit 1)
+
+RUN echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends google-chrome-stable unzip || \
+    (echo "Google Chrome installation failed!" && exit 1)
+
+RUN rm -rf /var/lib/apt/lists/*
 
 # Download and install Gradle
 RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
