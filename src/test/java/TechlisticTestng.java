@@ -6,11 +6,17 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class TechlisticTestng extends TechlisticBaseClass{
     public LoginPage userlogin=new LoginPage();
     //TechlisticBaseClass tbc=new TechlisticBaseClass();
     public HomePage hpage=new HomePage();
-   @Test(priority = 1)
+
+    public TechlisticTestng() throws IOException {
+    }
+
+    @Test(priority = 1)
    @Parameters("Browsername")
     public void openBrowser(String Browser) throws InterruptedException {
         //TechlisticBaseClass tbc=new TechlisticBaseClass();
@@ -24,7 +30,14 @@ public class TechlisticTestng extends TechlisticBaseClass{
     public void validateHomePage(){
         String homepageExpectedTitle="CHEMSCOPE LABSOLUTION INDIA LLP";
         String homepageActualTile= hpage.verifyHomePage();
-        Assert.assertEquals(homepageExpectedTitle,homepageActualTile, "home page text not matching");
+        try {
+            Assert.assertEquals(homepageActualTile, homepageExpectedTitle, "home page text not matching");
+            System.out.println("Assertion Passed: Page title matches.");
+        }
+        catch (AssertionError e) {
+            System.err.println("Assertion Failed: " + e.getMessage());
+            throw e; // Fail the test
+        }
     }
    /* @Test (priority = 2)
     public void loginToTestSite() throws InterruptedException {

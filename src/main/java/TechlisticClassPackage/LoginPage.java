@@ -4,8 +4,13 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.io.IOException;
+
 public class LoginPage extends TechlisticBaseClass {
-   // WebDriver driver=null;
+    public LoginPage() throws IOException {
+    }
+
+    // WebDriver driver=null;
     public void login() throws InterruptedException {
        // this.driver=super.driver;
         driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("subodh");
