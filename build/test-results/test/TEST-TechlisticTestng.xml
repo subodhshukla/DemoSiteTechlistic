@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-20T13:14:20" hostname="DESKTOP-42KN1G2" time="3.662">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-20T13:57:16" hostname="DESKTOP-42KN1G2" time="3.563">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.329"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.163"/>
-  <testcase name="quitNow" classname="TechlisticTestng" time="0.169"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.281"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.147"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.134"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
@@ -15,9 +15,11 @@ Test validateHomePage Pass
 Test quitNow started
 Test quitNow Pass
 ]]></system-out>
-  <system-err><![CDATA[Dec 20, 2024 6:44:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Praveen Shukla\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+Dec 20, 2024 7:27:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-Dec 20, 2024 6:44:24 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Dec 20, 2024 7:27:19 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)

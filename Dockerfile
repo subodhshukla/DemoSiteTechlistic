@@ -34,4 +34,4 @@ RUN ./gradlew build --no-daemon
 #RUN ls -R build/
 
 # Specify the command to run your Java application
-CMD ["./gradlew", "test"]
+CMD ["./gradlew", "build"]
