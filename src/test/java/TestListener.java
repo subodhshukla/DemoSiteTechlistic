@@ -15,17 +15,20 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         // Not needed for this example
+        System.out.println("Test "+result.getName()+" Pass");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         // Set failure flag to true if any test fails
-        isFailureDetected = true;
+        if (isFailureDetected = true) {
+            System.out.println("Test " + result.getName() + " started");
+        }
     }
-
     @Override
     public void onTestSkipped(ITestResult result) {
         // Not needed for this example
+            System.out.println("Test "+result.getName()+" Skipped");
     }
 
     @Override
