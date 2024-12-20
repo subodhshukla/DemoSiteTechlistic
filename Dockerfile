@@ -29,9 +29,9 @@ RUN chmod +x gradlew
 
 # Build the application
 RUN ./gradlew build --no-daemon
-
+RUN ls -R /app
 # List the contents of build directory for debugging
-RUN ls -R build/
+#RUN ls -R build/
 
 # Specify the command to run your Java application
 CMD ["./gradlew", "test"]

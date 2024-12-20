@@ -26,7 +26,8 @@ public class TechlisticBaseClass {
         if (Browser.contains("Chrome")) {
             //********** commented part if you want headless mode for automation. *********
            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
+            options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+           // options.addArguments("--headless");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             WebDriverManager.chromedriver().setup();
