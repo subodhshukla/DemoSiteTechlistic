@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-12-20T10:48:06" hostname="DESKTOP-42KN1G2" time="3.679">
+<testsuite name="TechlisticTestng" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-20T10:53:15" hostname="DESKTOP-42KN1G2" time="3.713">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.584"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.095"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.713"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
 pushed on dev enviornment 
-Test validateHomePage started
-Assertion Passed: Page title matches.
 ]]></system-out>
-  <system-err><![CDATA[Dec 20, 2024 4:18:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[Dec 20, 2024 4:23:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
 </testsuite>

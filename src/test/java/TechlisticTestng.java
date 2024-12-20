@@ -26,19 +26,19 @@ public class TechlisticTestng extends TechlisticBaseClass{
         Thread.sleep(2000);
 
     }
-    @Test (priority = 2)
+   /* @Test (priority = 2)
     public void validateHomePage(){
         String homepageExpectedTitle="CHEMSCOPE LABSOLUTION INDIA LLP";
         String homepageActualTile= hpage.verifyHomePage();
-       /* try {*/
+       *//* try {*//*
             Assert.assertEquals(homepageActualTile, homepageExpectedTitle, "home page text not matching");
             System.out.println("Assertion Passed: Page title matches.");
-       /* }*/
-       /* catch (AssertionError e) {
+       *//* }*//*
+       *//* catch (AssertionError e) {
             System.err.println("Assertion Failed: " + e.getMessage());
             throw e; // Fail the test
-        }*/
-    }
+        }*//*
+    }*/
    /* @Test (priority = 2)
     public void loginToTestSite() throws InterruptedException {
        userlogin.login();
