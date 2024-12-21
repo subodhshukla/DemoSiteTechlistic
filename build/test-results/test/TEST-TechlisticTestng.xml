@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-20T15:42:46" hostname="DESKTOP-42KN1G2" time="4.08">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-21T11:51:33" hostname="DESKTOP-42KN1G2" time="3.83">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.578"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.393"/>
-  <testcase name="quitNow" classname="TechlisticTestng" time="0.107"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.371"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.323"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.135"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
@@ -15,11 +15,10 @@ Test validateHomePage Pass
 Test quitNow started
 Test quitNow Pass
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Praveen Shukla\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-Dec 20, 2024 9:12:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Praveen Shukla\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+Dec 21, 2024 5:21:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-Dec 20, 2024 9:12:50 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Dec 21, 2024 5:21:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)

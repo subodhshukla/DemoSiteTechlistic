@@ -30,10 +30,11 @@ public class TechlisticBaseClass {
            // options.addArguments("--headless");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
-            WebDriverManager.chromedriver().setup();
+            //WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().driverVersion("131.0.6778.204").setup();
             driver = new ChromeDriver(options);
             //***Below statement used instead of "System.setProperty()"
-           /* WebDriverManager.chromedriver().setup();
+/*            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();*/
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
