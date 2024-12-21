@@ -44,9 +44,9 @@ public class TechlisticTestng extends TechlisticBaseClass{
        userlogin.login();
     }
 */
-    @Test (priority = 3)
+  /*  @Test (priority = 3)
     public void quitNow(){
        closeBrowser();
-    }
+    }*/
    //driver.quit();
 }

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechlisticClassPackage/TechlisticBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,22 +281,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1734346610437" />
-    <state width="1493" height="313" key="GridCell.Tab.0.bottom" timestamp="1734783002738">
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom" timestamp="1734792866262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1734783002738" />
-    <state width="1493" height="313" key="GridCell.Tab.0.center" timestamp="1734783002738">
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1734792866262" />
+    <state width="1493" height="313" key="GridCell.Tab.0.center" timestamp="1734792866262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1734783002738" />
-    <state width="1493" height="313" key="GridCell.Tab.0.left" timestamp="1734783002738">
+    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1734792866262" />
+    <state width="1493" height="313" key="GridCell.Tab.0.left" timestamp="1734792866262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1734783002738" />
-    <state width="1493" height="313" key="GridCell.Tab.0.right" timestamp="1734783002738">
+    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1734792866262" />
+    <state width="1493" height="313" key="GridCell.Tab.0.right" timestamp="1734792866262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1734783002738" />
+    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1734792866262" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1734616857465">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -343,10 +337,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816@0.0.1536.816" timestamp="1729674931395" />
-    <state x="594" y="237" key="export.test.results" timestamp="1733321531283">
+    <state x="594" y="237" key="export.test.results" timestamp="1734792913673">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="594" y="237" key="export.test.results/0.0.1536.816@0.0.1536.816" timestamp="1733321531283" />
+    <state x="594" y="237" key="export.test.results/0.0.1536.816@0.0.1536.816" timestamp="1734792913673" />
     <state x="209" y="21" key="new project wizard" timestamp="1734346399504">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
