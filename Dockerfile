@@ -16,13 +16,19 @@ RUN apt-get update && \
 # Debugging step to verify Google Chrome installation
 RUN google-chrome --version || echo "Google Chrome installation failed"
 
+# Detect Chrome version and install matching Chromedriver
 RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+') && \
     echo "Detected Chrome version: $CHROME_VERSION" && \
-    # Check if Chromedriver release exists for this version
-    CHROMEDRIVER_VERSION=$(curl -sSL chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION) || \
-    # Fallback to the latest release if not found
-    CHROMEDRIVER_VERSION=$(curl -sSL chromedriver.storage.googleapis.com/LATEST_RELEASE) && \
-    echo "Detected Chromedriver version: $CHROMEDRIVER_VERSION" && \
+    # Extract only the major.minor version (first two parts)
+    CHROME_MAJOR_MINOR=$(echo "$CHROME_VERSION" | awk -F. '{print $1"."$2}') && \
+    echo "Detected Chrome major.minor version: $CHROME_MAJOR_MINOR" && \
+    # Attempt to get Chromedriver for the specific Chrome version
+    CHROMEDRIVER_VERSION=$(curl -sSL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_MINOR" || true) && \
+    if [ -z "$CHROMEDRIVER_VERSION" ]; then \
+        echo "Specific Chromedriver version not found, falling back to latest version"; \
+        CHROMEDRIVER_VERSION=$(curl -sSL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE"); \
+    fi && \
+    echo "Using Chromedriver version: $CHROMEDRIVER_VERSION" && \
     curl -sSL "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -o chromedriver.zip && \
     unzip chromedriver.zip -d /usr/bin/ && \
     chmod +x /usr/bin/chromedriver && \

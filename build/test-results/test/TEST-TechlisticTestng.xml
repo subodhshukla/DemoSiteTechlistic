@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-23T13:38:05" hostname="DESKTOP-42KN1G2" time="3.911">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-23T14:42:33" hostname="DESKTOP-42KN1G2" time="3.982">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.356"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.393"/>
-  <testcase name="quitNow" classname="TechlisticTestng" time="0.161"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.528"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.342"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.111"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
@@ -15,9 +15,9 @@ Test validateHomePage Pass
 Test quitNow started
 Test quitNow Pass
 ]]></system-out>
-  <system-err><![CDATA[Dec 23, 2024 7:08:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[Dec 23, 2024 8:12:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-Dec 23, 2024 7:08:09 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Dec 23, 2024 8:12:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
