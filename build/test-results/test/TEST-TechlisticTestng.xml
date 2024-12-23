@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-23T11:41:22" hostname="DESKTOP-42KN1G2" time="5.13">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-23T12:04:04" hostname="DESKTOP-42KN1G2" time="4.216">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="4.555"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.405"/>
-  <testcase name="quitNow" classname="TechlisticTestng" time="0.169"/>
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.705"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.342"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.168"/>
   <system-out><![CDATA[Test openBrowser started
 Application ran successfully, thanks
 Browser launched
@@ -17,9 +17,9 @@ Test quitNow Pass
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Praveen Shukla\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-Dec 23, 2024 5:11:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 23, 2024 5:34:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-Dec 23, 2024 5:11:27 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Dec 23, 2024 5:34:08 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)

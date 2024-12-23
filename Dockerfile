@@ -6,15 +6,17 @@ WORKDIR /app
 
 # Install dependencies and Google Chrome
 RUN apt-get update && \
-    apt-get install -y wget gnupg2 && \
+    apt-get install -y wget gnupg2 curl unzip libx11-dev libx11-xcb1 libxcomposite1 libxrandr2 libgbm1 libasound2 libnss3 && \
     wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
     echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
     apt-get update && \
     apt-get install -y google-chrome-stable && \
-    apt-get install -y unzip && \
     rm -rf /var/lib/apt/lists/*
 
-    # Install the correct version of Chromedriver that matches the installed Google Chrome version
+# Debugging step to verify Google Chrome installation
+RUN google-chrome --version || echo "Google Chrome installation failed"
+
+# Install Chromedriver
 RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+') && \
     echo "Detected Chrome version: $CHROME_VERSION" && \
     CHROMEDRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION) && \
