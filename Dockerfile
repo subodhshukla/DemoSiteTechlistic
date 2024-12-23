@@ -23,8 +23,8 @@ RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+') && \
     CHROME_MAJOR_MINOR=$(echo "$CHROME_VERSION" | awk -F. '{print $1"."$2}') && \
     echo "Detected Chrome major.minor version: $CHROME_MAJOR_MINOR" && \
     # Attempt to get Chromedriver for the specific Chrome version
-    CHROMEDRIVER_VERSION=$(curl -sSL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_MINOR" || true) && \
-    if [ -z "$CHROMEDRIVER_VERSION" ]; then \
+    CHROMEDRIVER_VERSION=$(curl -sSL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_MINOR" || echo "") && \
+    if [ -z "$CHROMEDRIVER_VERSION" ] || echo "$CHROMEDRIVER_VERSION" | grep -q "<Error>"; then \
         echo "Specific Chromedriver version not found, falling back to latest version"; \
         CHROMEDRIVER_VERSION=$(curl -sSL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE"); \
     fi && \
