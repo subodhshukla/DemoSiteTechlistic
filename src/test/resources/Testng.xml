@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2"  name="MyTestSuite">
     <parameter name="Browsername" value="Chrome"></parameter>
-    <listeners>
+<!--    <listeners>
         <listener class-name="TestListener"/>
-    </listeners>
+    </listeners>-->
             <test name="MyTest">
         <classes>
             <class name="TechlisticTestng"/>

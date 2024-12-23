@@ -17,7 +17,7 @@ public class HomePage extends TechlisticBaseClass{
     public String verifyHomePage(){
        // driver.findElement(By.xpath("/html/body/nav/ul/li[1]/a")).click();
         driver.findElement(By.xpath(homePageProp.getProperty("HomePageTab"))).click();
-     // String homepageActualTile=driver.findElement(By.xpath("//*[@id=\"content\"]/div/h1")).getText();
+      //String homepageActualTile=driver.findElement(By.xpath("//*[@id=\"content\"]/div/h1")).getText();
         String homepageActualTile=driver.findElement(By.xpath(homePageProp.getProperty("HomePageTitle"))).getText();
         return homepageActualTile;
     }

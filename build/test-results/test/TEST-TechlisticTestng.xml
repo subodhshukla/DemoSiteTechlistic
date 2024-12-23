@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TechlisticTestng" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-12-21T15:11:27" hostname="DESKTOP-42KN1G2" time="4.439">
+<testsuite name="TechlisticTestng" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-23T08:37:42" hostname="DESKTOP-42KN1G2" time="4.205">
   <properties/>
-  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="4.168"/>
-  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.271"/>
-  <system-out><![CDATA[Test openBrowser started
-Application ran successfully, thanks
+  <testcase name="openBrowser[0](Chrome)" classname="TechlisticTestng" time="3.65"/>
+  <testcase name="validateHomePage" classname="TechlisticTestng" time="0.404"/>
+  <testcase name="quitNow" classname="TechlisticTestng" time="0.15"/>
+  <system-out><![CDATA[Application ran successfully, thanks
 Browser launched
 pushed on dev enviornment 
-Test openBrowser Pass
-Test validateHomePage started
 Assertion Passed: Page title matches.
-Test validateHomePage Pass
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Praveen Shukla\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-Dec 21, 2024 8:41:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 23, 2024 2:07:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+Dec 23, 2024 2:07:47 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+
 ]]></system-err>
 </testsuite>
