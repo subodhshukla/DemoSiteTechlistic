@@ -31,7 +31,7 @@ public class TechlisticBaseClass {
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-           // WebDriverManager.chromedriver().setup();
+            // WebDriverManager.chromedriver().setup();
             // WebDriverManager.chromedriver().driverVersion("131.0.6778.204").setup();
             driver = new ChromeDriver(options);
            // System.setProperty("webdriver.chrome.driver", "D:\\subodh\\subodh_Spar\\Software\\Driver\\chromedriver-V131.0.6778-win64 (1)\\chromedriver-win64\\chromedriver");
