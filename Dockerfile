@@ -16,16 +16,6 @@ RUN apt-get update && \
 # Debugging step to verify Google Chrome installation
 RUN google-chrome --version || echo "Google Chrome installation failed"
 
-# Install Chromedriver
-RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+') && \
-    echo "Detected Chrome version: $CHROME_VERSION" && \
-    CHROMEDRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION) && \
-    echo "Detected Chromedriver version: $CHROMEDRIVER_VERSION" && \
-    curl -sSL "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -o chromedriver.zip && \
-    unzip chromedriver.zip -d /usr/bin/ && \
-    chmod +x /usr/bin/chromedriver && \
-    rm chromedriver.zip
-
 # Download and install Gradle
 RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
     unzip gradle-8.3-bin.zip && \
