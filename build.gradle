@@ -72,7 +72,6 @@ shadowJar {
         )
     }
 }
-/*
 tasks.withType(ProcessResources) {
     enabled = false
-}*/
+}
