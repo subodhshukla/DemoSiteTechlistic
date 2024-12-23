@@ -28,7 +28,7 @@ COPY . ./
 RUN chmod +x gradlew
 RUN ls -R /app
 # Build the application
-RUN ./gradlew build --no-daemon
+#RUN ./gradlew build --no-daemon
 
 # List the contents of build directory for debugging
 #RUN ls -R build/
