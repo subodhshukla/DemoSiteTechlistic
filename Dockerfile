@@ -6,9 +6,12 @@ WORKDIR /app
 
 # Copy your application code early so gradlew is available for build steps
 COPY . ./
+COPY gradlew .
+COPY gradlew.bat .
 
 # Ensure gradlew is executable
 RUN chmod +x gradlew
+RUN ls -la /app
 
 # Install dependencies and Google Chrome
 RUN apt-get update && \
