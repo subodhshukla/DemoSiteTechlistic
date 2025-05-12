@@ -4,6 +4,12 @@ FROM openjdk:21-slim
 # Set the working directory in the container
 WORKDIR /app
 
+# Copy your application code early so gradlew is available for build steps
+COPY . ./
+
+# Ensure gradlew is executable
+RUN chmod +x gradlew
+
 # Install dependencies and Google Chrome
 RUN apt-get update && \
     apt-get install -y wget gnupg2 curl unzip libx11-dev libx11-xcb1 libxcomposite1 libxrandr2 libgbm1 libasound2 libnss3 && \
@@ -19,10 +25,8 @@ RUN google-chrome --version || echo "Google Chrome installation failed"
 # Detect Chrome version and install matching Chromedriver
 RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+') && \
     echo "Detected Chrome version: $CHROME_VERSION" && \
-    # Extract only the major.minor version (first two parts)
     CHROME_MAJOR_MINOR=$(echo "$CHROME_VERSION" | awk -F. '{print $1"."$2}') && \
     echo "Detected Chrome major.minor version: $CHROME_MAJOR_MINOR" && \
-    # Attempt to get Chromedriver for the specific Chrome version
     CHROMEDRIVER_VERSION=$(curl -sSL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_MINOR" || echo "") && \
     if [ -z "$CHROMEDRIVER_VERSION" ] || echo "$CHROMEDRIVER_VERSION" | grep -q "<Error>"; then \
         echo "Specific Chromedriver version not found, falling back to latest version"; \
@@ -41,18 +45,8 @@ RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
     ln -s /opt/gradle/bin/gradle /usr/bin/gradle && \
     rm gradle-8.3-bin.zip
 
-# Copy your application code
-COPY . ./
-
-# Ensure gradlew is executable
-RUN chmod +x gradlew
-RUN chmod +x ./gradlew
-RUN ls -R /app
 # Build the application
 RUN ./gradlew build --no-daemon
 
-# List the contents of build directory for debugging
-#RUN ls -R build/
-
-# Specify the command to run your Java application
+# Final container command (optional, can change to app run command later)
 CMD ["./gradlew", "build"]
