@@ -46,6 +46,7 @@ COPY . ./
 
 # Ensure gradlew is executable
 RUN chmod +x gradlew
+RUN chmod +x ./gradlew
 RUN ls -R /app
 # Build the application
 RUN ./gradlew build --no-daemon
