@@ -8,7 +8,8 @@ WORKDIR /app
 COPY . ./
 COPY gradlew .
 COPY gradlew.bat .
-
+# Ensure gradlew is Unix-formatted and executable
+RUN apt-get update && apt-get install -y dos2unix && dos2unix gradlew && chmod +x gradlew
 # Ensure gradlew is executable
 RUN chmod +x gradlew
 RUN ls -la /app
