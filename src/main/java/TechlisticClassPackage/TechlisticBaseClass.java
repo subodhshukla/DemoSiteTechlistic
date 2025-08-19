@@ -25,7 +25,7 @@ public class TechlisticBaseClass {
     public void BrowserConfig(String Browser) throws InterruptedException {
         if (Browser.contains("Chrome")) {
             //********** commented part if you want headless mode for automation. In headless mode browser will not open but test will pass *********
-          /* ChromeOptions options = new ChromeOptions();
+           /*ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
