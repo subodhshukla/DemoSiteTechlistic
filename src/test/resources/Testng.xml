@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="TestListener"/>
     </listeners>
-            <test name="MyTest">
+    <test name="MyTest">
         <classes>
             <class name="TechlisticTestng"/>
         </classes>

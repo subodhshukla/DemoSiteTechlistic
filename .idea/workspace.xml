@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="df7a3e40-d890-40b8-b58e-73db41c44049" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TechlisticTestng.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TechlisticTestng.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/DemoSiteTechlistic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
+>>>>>>> 4f7503e205deb5e6402c31884102317de6ac7fc4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +96,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "git-widget-placeholder": "StageBranch"
   }
 }]]></component>
+=======
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/../../PracticeProject2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+>>>>>>> 4f7503e205deb5e6402c31884102317de6ac7fc4
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -177,8 +229,17 @@
     </configuration>
     <configuration name="D:/subodh/subodh_Spar/Automation/DemoSiteTechlistic/src/test/resources/Testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoSiteTechlistic.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -239,46 +300,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1747750311805">
+    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1773661913034">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1747750311805" />
-    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1747750311805">
+    <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1773661913034" />
+    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1773661913034">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1747750311805" />
-    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1747750311805">
+    <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1773661913034" />
+    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1773661913034">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1747750311805" />
-    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1747750311805">
+    <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1773661913034" />
+    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1773661913034">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1747750311805" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1746950414565">
+    <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1773661913034" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1773660276752">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1746950414565" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1746950414565">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1746950414565" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1746950414565">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1746950414565" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1746950414565">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1746950414565" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1747742672924">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1747742672924" />
-    <state x="209" y="21" key="new project wizard" timestamp="1740992627277">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="209" y="21" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1740992627277" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1773660276752" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DemoSiteTechlistic$D__subodh_subodh_Spar_Automation_DemoSiteTechlistic_src_test_resources_Testng_xml.ic" NAME="$PROJECT_DIR$/src/test/resources/Testng.xml Coverage Results" MODIFIED="1733318318183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
