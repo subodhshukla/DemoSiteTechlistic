@@ -25,7 +25,7 @@ repositories {
 test {
     useTestNG() {
         //include "**/*TechlisticTestng.class" // You can modify to include your specific test class
-       suites files ("src/test/resources/*Testng.xml")
+       suites file("src/test/resources/*Testng.xml")
     }
 
     // Enable verbose logging to see what Gradle is doing
